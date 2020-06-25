@@ -26,5 +26,6 @@ deploy:
   provider: releases
   file: build/ios/iphoneos/app.ipa
   skip_cleanup: true #important or your built app would be deleted
+  draft: true
   on:
     repo: https://github.com/BhavinSH/Flutter_Sample.git
